@@ -1,0 +1,801 @@
+
+<!DOCTYPE html>
+<html lang="en-us"><head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJDJ843BRC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PJDJ843BRC');
+</script>    
+    
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha256-azvvU9xKluwHFJ0Cpgtf0CYzK7zgtOznnzxV4924X1w=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://www.cs.niu.edu/css/fonts.css">
+        
+    <link href="https://www.niu.edu/masterto/themes/Theme_4_0/css/print.css" media="print" rel="stylesheet"/>
+    <link href="https://www.niu.edu/masterto/includes/MyFontsWebfontsOrderM3016798.css" rel="stylesheet" type="text/css"/>
+    <link href="https://www.niu.edu/masterto/themes/Theme_4_0/css/niu-styles-theme4.0.css?20191219" rel="stylesheet" type="text/css"/>
+    
+    <link crossorigin="anonymous" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-IIED/eyOkM6ihtOiQsX2zizxFBphgnv1zbe1bKA+njdFzkr6cDNy16jfIKWu4FNH" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://www.cs.niu.edu/css/custom.css">
+
+<style>
+/*By the Numbers*/
+ .bythenumbers{
+	 background-color:#c8102e;
+	 padding: 1.5em 0;
+	 border-top:4px solid black;
+}
+ .bythenumbers h2 {
+	 color: #ffffff;
+	 text-transform: uppercase;
+	 font-family:'Montserrat', Arial, sans-serif;
+	 font-style: normal;
+	 font-weight: 800;
+	 font-size: 25px;
+	 text-shadow: 1px 1px 2px #000;
+	 flex: 100%;
+}
+ .bythenumbers {
+	 position:relative;
+	 background: url(https://www.niu.edu/images/by-the-numbers.jpg);
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 background-position: center center;
+	 min-height: 450px;
+	 margin-top:0em;
+}
+
+div.bythenumbers > div > div.col-12{
+    background:rgba(0, 0, 0,.7);
+}
+</style>
+
+    
+</head>
+<body><nav class="navbar navbar-global">
+  <div class="container" style="position: relative;">
+    
+    <ul class="nav justify-content-start">
+      <li class="nav-item small">
+	<a href="https://www.niu.edu">
+	  <i class="fal fa-long-arrow-left"></i> NIU.edu 
+	</a>
+      </li>
+    </ul>
+    <ul class="nav justify-content-end d-none d-md-inline-flex mr-lg-0">
+      <li class="nav-item small">
+	<a class="nav-link" href="https://www.niu.edu/web.shtml">A-Z Index</a>
+      </li>
+      <li class="nav-item small">
+	<a class="nav-link" href="https://calendar.niu.edu/">Calendar</a>
+      </li>
+      <li class="nav-item small">
+	<a class="nav-link" href="https://directory.niu.edu/app/directory/PeopleSearch.aspx">Directory</a>
+      </li>
+      <li class="nav-item small">
+	<a class="nav-link" href="https://library.niu.edu/ulib/"> Libraries</a>
+      </li>
+      <li class="nav-item small">
+	<a class="nav-link" href="https://foundation.myniu.com/">Make a Gift</a>
+      </li>
+      <li class="nav-item small dropdown">
+	<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">Info For</a>
+	<div class="dropdown-menu">
+	  <a class="dropdown-item" href="https://www.niu.edu/students.shtml">Students</a>
+	  <a class="dropdown-item" href="https://niu.edu/faculty-staff.shtml">Faculty and Staff</a>
+	  <a class="dropdown-item" href="https://niu.edu/parents.shtml">Parents and Families</a>
+	  <a class="dropdown-item" href="https://www.myniu.com/" rel="noopener noreferrer" target="_blank">Alumni and Friends</a>
+	  <a class="dropdown-item" href="https://niu.edu/community/index.shtml">Community and Business</a>
+	  <a class="dropdown-item" href="https://employment.niu.edu/" rel="noopener noreferrer" target="_blank">Prospective Employees</a>
+	</div>
+      </li>
+      <li class="nav-item small dropdown">
+	<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">Quick Links</a>
+	<div class="dropdown-menu">
+	  <a class="dropdown-item" href="https://webcourses.niu.edu/" rel="noopener noreferrer" target="_blank">Blackboard</a>
+	  <a class="dropdown-item" href="https://myniu.niu.edu/ps/signon.html" rel="noopener noreferrer" target="_blank">MyNIU</a>
+	  <a class="dropdown-item" href="https://niu.academicworks.com/" rel="noopener noreferrer" target="_blank">MyScholarships</a>
+ 	  <a class="dropdown-item" href="https://go.niu.edu/huskielink/" rel="noopener noreferrer" target="_blank">HuskieLink</a>
+	  <a class="dropdown-item" href="https://o365.niu.edu" rel="noopener noreferrer" target="_blank">Office 365</a>
+	  <a class="dropdown-item" href="https://anywhereapps.niu.edu" rel="noopener noreferrer" target="_blank">Anywhere Apps</a>
+	  <a class="dropdown-item" href="https://niu.qualtrics.com" rel="noopener noreferrer" target="_blank">Qualtrics</a>
+	  <a class="dropdown-item" href="https://go.niu.edu/navigate" rel="noopener noreferrer" target="_blank">Navigate</a>
+	  <a class="dropdown-item" href="https://niu.edu/careerservices/huskies-get-hired/index.shtml" rel="noopener noreferrer" target="_blank">Huskies Get Hired</a>
+	  <a class="dropdown-item" href="https://o365.niu.edu" rel="noopener noreferrer" target="_blank">Student Email</a>
+	  <a class="dropdown-item" href="https://password.niu.edu" rel="noopener noreferrer" target="_blank">Password Self-Service</a>
+	</div>
+      </li>
+      
+      <li class="d-none d-lg-flex">
+	<form action="https://www.niu.edu/niusearch.asp" class="navbar-form form-inline">
+	  <div class="form-group">
+	    <input name="cx" type="hidden" value="015599932022858976637:nq6dbpwtmdi"/>
+	    <input name="cof" type="hidden" value="FORID:11"/>
+	    <label class="sr-only" for="searchNIU">Search NIU</label>
+	    <input class="form-control" id="searchNIU" maxlength="255" name="q" onfocus="this.value='';" placeholder="Search NIU" type="text"/>
+	  </div>
+	  <button class="btn" type="submit">
+	    <i class="fas fa-search"></i>
+	    <span class="sr-only">Toggle Search</span>
+	  </button>
+	</form>
+      </li>
+      
+      <li class="d-none d-md-flex d-lg-none">
+        <button class="btn" type="submit" data-toggle="collapse" data-target="#niu_md_searchWrapper">
+    	  <i class="fas fa-search" style="color: #FFF"></i>
+    	  <span class="sr-only">Submit</span>
+        </button>
+      </li>
+      
+      <li class="d-lg-none">
+	<button class="navbar-toggler p-0 border-0 ml-auto" data-toggle="offcanvas" type="button">
+	  <i class="far fa-bars"></i>
+	  <span class="sr-only">Menu</span>
+	</button>
+      </li>
+    </ul>
+    
+    <ul class="nav d-none d-md-flex d-lg-none col-12">
+      <li class="col-12 ml-0 pl-0 mr-0 pr-0 mt-3 mb-3 collapse" id="niu_md_searchWrapper">
+    	<form action="https://www.niu.edu/niusearch.asp" class="navbar-form form-inline">
+    	  <div class="form-group" style="flex: 0 0 93%">
+    	    <input name="cx" type="hidden" value="015599932022858976637:nq6dbpwtmdi"/>
+    	    <input name="cof" type="hidden" value="FORID:11"/>
+    	    <span class="sr-only" for="searchNIUTablet">Search NIU</span>
+    	    <input class="form-control" style="width: 100%" id="searchNIUTablet" maxlength="255" name="q" onfocus="this.value='';" placeholder="Search NIU" type="text"/>
+    	  </div>
+    	  <button class="btn" type="submit">
+    	    <i class="fas fa-search"></i>
+    	    <span class="sr-only">Submit</span>
+    	  </button>
+    	</form>
+      </li>
+    </ul>
+  </div>
+</nav> 
+
+<div class="bg-white">
+<nav class="navbar navbar-expand-lg navbar-light bg-white container">
+    <button class="navbar-toggler p-0 border-0 ml-auto" data-toggle="offcanvas" type="button">
+      <i class="far fa-bars"></i>
+      <span class="sr-only">Menu</span>
+    </button>
+
+<div class="slide_elements container">
+<a class="navbar-brand mr-auto mr-lg-0" href="https://www.cs.niu.edu">
+<img alt="" height="110" src="https://niu.edu/masterto/themes/Theme_4_0/common/images/niu-shield.svg" width="65">
+<div class="tagline_holder">
+Department of Computer Science
+<span class="tagline">
+College of Liberal Arts and Sciences </span>
+</div>
+</a>
+</div>
+
+
+
+    <div class="navbar-collapse offcanvas-collapse" id="main-nav">
+      <form action="https://www.niu.edu/niusearch.asp" class="navbar-form navbar-right d-lg-none">
+        <input name="cx" type="hidden" value="015599932022858976637:nq6dbpwtmdi"/>
+        <input name="cof" type="hidden" value="FORID:11"/>
+        <label class="sr-only" for="searchNIUmobile">Search NIU</label>
+        <input class="form-control" id="searchNIUmobile" maxlength="255" name="q" onfocus="this.value='';" placeholder="Search NIU" type="text"/>
+        <button class="btn" type="submit">
+          <span class="fa fa-search"></span>
+          <span class="sr-only">Submit</span>
+        </button>
+      </form><ul class="navbar-nav ml-auto">
+  <li class="nav-item px-md-2 ">
+    <a class="nav-link" href="https://www.cs.niu.edu/"><span class="fas fa-home"></span></a>
+  </li>
+  
+  
+  
+  <li class="dropdown px-md-2 ">
+    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+      
+      <span>About</span>
+    </a>
+    <ul class="dropdown-menu">
+      
+      <li class="">
+	<a class="dropdown-item" href="/about/mission-statement/">Mission Statement</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/about/news/">News</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/about/faculty-and-staff/">Faculty and Staff</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/about/why-computer-science/">Why Computer Science</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/about/contact/">Contacts</a>
+      </li>
+      
+    </ul>
+  </li>
+  
+  
+  
+  <li class="dropdown px-md-2 ">
+    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+      
+      <span>Undergraduate</span>
+    </a>
+    <ul class="dropdown-menu">
+      
+      <li class="">
+	<a class="dropdown-item" href="/undergraduate/">Overview</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/undergraduate/limited-admission/">Limited Admission</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/undergraduate/requirements/">Requirements</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/undergraduate/minor/">Minor</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/undergraduate/second-degree/">Second Degree</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/undergraduate/advising/">Advising</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/undergraduate/courses/">Courses</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/undergraduate/mobile-programming/">Mobile Programming</a>
+      </li>
+      
+    </ul>
+  </li>
+  
+  
+  
+  <li class="dropdown px-md-2 ">
+    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+      
+      <span>Graduate</span>
+    </a>
+    <ul class="dropdown-menu">
+      
+      <li class="">
+	<a class="dropdown-item" href="/graduate/">Overview</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/graduate/masters/">Master&rsquo;s</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/graduate/doctoral/">Doctoral</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/graduate/requirements/">Requirements</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/graduate//">Admissions</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/graduate/cybersecurity/">Cybersecurity</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/graduate/courses/">Courses</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/graduate/internships/">Internships</a>
+      </li>
+      
+    </ul>
+  </li>
+  
+  
+  
+  <li class="nav-item px-md2">
+    <a class="nav-link" href="/research/">
+      
+      <span>Research</span>
+    </a>
+  </li>
+  
+  
+  
+  <li class="dropdown px-md-2 ">
+    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+      
+      <span>Campus Experience</span>
+    </a>
+    <ul class="dropdown-menu">
+      
+      <li class="">
+	<a class="dropdown-item" href="/campus/facilities/">Facilities</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/campus/acm/">ACM</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/campus/resources/">Resources</a>
+      </li>
+      
+    </ul>
+  </li>
+  
+  
+  
+  <li class="dropdown px-md-2 ">
+    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+      
+      <span>Careers</span>
+    </a>
+    <ul class="dropdown-menu">
+      
+      <li class="">
+	<a class="dropdown-item" href="/careers/employers/">Employers</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/careers/recruiting/">Recruiting</a>
+      </li>
+      
+      <li class="">
+	<a class="dropdown-item" href="/careers/training/">Training</a>
+      </li>
+      
+    </ul>
+  </li>
+  
+  
+</ul>
+
+        
+      
+
+      <div class="global-mobile d-md-none">
+	<ul class="nav d-block">
+	  <li class="nav-item">
+	    <a class="nav-link" href="https://www.niu.edu/web.shtml">A-Z Index</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="https://calendar.niu.edu/">Calendar</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="https://directory.niu.edu/app/directory/PeopleSearch.aspx">Directory</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="https://library.niu.edu/ulib/"> Libraries</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="https://foundation.myniu.com/">Make a Gift</a>
+	  </li>
+	  <li class="nav-item dropup">
+	    <div class="dropdown-menu">
+	      <a class="dropdown-item" href="https://www.niu.edu/students.shtml">Students</a>
+	      <a class="dropdown-item" href="https://niu.edu/faculty-staff.shtml">Faculty and Staff</a>
+	      <a class="dropdown-item" href="https://niu.edu/parents.shtml">Parents and Families</a>
+	      <a class="dropdown-item" href="https://www.myniu.com/" rel="noopener noreferrer" target="_blank">Alumni and Friends</a>
+	      <a class="dropdown-item" href="https://niu.edu/community/index.shtml">Community and Business</a>
+	      <a class="dropdown-item" href="https://employment.niu.edu/" rel="noopener noreferrer" target="_blank">Prospective Employees</a>
+	    </div>
+	    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">Info For</a>
+	  </li>
+	  <li class="nav-item dropup">
+	    <div class="dropdown-menu">
+	      <a class="dropdown-item" href="https://webcourses.niu.edu/" rel="noopener noreferrer" target="_blank">Blackboard</a>
+	      <a class="dropdown-item" href="https://myniu.niu.edu/ps/signon.html" rel="noopener noreferrer" target="_blank">MyNIU</a>
+	      <a class="dropdown-item" href="https://niu.academicworks.com/" rel="noopener noreferrer" target="_blank">MyScholarships</a>
+
+	      <a class="dropdown-item" href="https://go.niu.edu/huskielink/" rel="noopener noreferrer" target="_blank">HuskieLink</a>
+	      <a class="dropdown-item" href="https://o365.niu.edu" rel="noopener noreferrer" target="_blank">Office 365</a>
+	      <a class="dropdown-item" href="https://anywhereapps.niu.edu" rel="noopener noreferrer" target="_blank">Anywhere Apps</a>
+	      <a class="dropdown-item" href="https://niu.qualtrics.com" rel="noopener noreferrer" target="_blank">Qualtrics</a>
+	      <a class="dropdown-item" href="https://go.niu.edu/navigate" rel="noopener noreferrer" target="_blank">Navigate</a>
+	      <a class="dropdown-item" href="https://niu.edu/careerservices/huskies-get-hired/index.shtml" rel="noopener noreferrer" target="_blank">Huskies Get Hired</a>
+	      <a class="dropdown-item" href="https://o365.niu.edu" rel="noopener noreferrer" target="_blank">Student Email</a>
+	      <a class="dropdown-item" href="https://password.niu.edu" rel="noopener noreferrer" target="_blank">Password Self-Service</a>
+	    </div>
+	    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">Quick Links</a>
+	  </li>
+	  
+	</ul>
+      </div> 
+    </div>
+  </nav>
+</div>
+<main class="container"><div aria-label="Rotating collection of images" aria-roledescription="carousel" class="carousel slide carousel-fade mb-3 row" data-ride="carousel" id="carousel-main">
+  
+  
+  <ol class="carousel-indicators">
+    
+    <li data-target="#carousel-main" data-slide-to="0"  class="active" ></li>
+    
+    <li data-target="#carousel-main" data-slide-to="1" ></li>
+
+<!--    <li data-target="#carousel-main" data-slide-to="2" ></li>-->
+    
+  </ol>
+
+<!--
+  <div class="carousel-inner" role="listbox">
+    
+    <div aria-label="1 of 3" aria-roledescription="slide" class="carousel-item active">
+      <a href="#">
+	
+        <img alt="Cutting Edge Tech" class="d-block mx-auto img-fluid" src="https://www.cs.niu.edu/images/carousel/cutting-edge.png">
+	
+      </a>
+      <div class="carousel-caption col-sm-12 col-md-4 ml-auto col-lg-3 ml-auto">
+        <p class="caption-heading">Join Our Faculty</p>
+        <p class="caption-content">The CS Department is currently looking to hire four tenure track faculty and a Director of Cybersecurity!</p>
+	<a class="btn btn-default" href="https://employment.niu.edu/postings/74093">Apply for Tenure Track</a><br/><br/>
+	<a class="btn btn-default" href="https://employment.niu.edu/postings/76184">Apply for CySec Director</a>
+      </div>
+    </div>
+-->
+    <div aria-label="1 of 2" aria-roledescription="slide" class="carousel-item active">
+      <a href="#">
+	
+        <img alt="Cutting Edge Tech" class="d-block mx-auto img-fluid" src="https://www.cs.niu.edu/images/carousel/cutting-edge.png">
+	
+      </a>
+      <div class="carousel-caption col-sm-12 col-md-4 ml-auto col-lg-3 ml-auto">
+        <p class="caption-heading">Cutting Edge Tech</p>
+        <p class="caption-content">Get hands-on experience with today&#39;s most exciting technology, such as virtual reality, artificial intelligence, data science, computer graphics, and more!</p>
+	
+      </div>
+    </div>
+
+    <div aria-label="2 of 2" aria-roledescription="slide" class="carousel-item ">
+      <a href="#">
+	
+        <img alt="Learn Together" class="d-block mx-auto img-fluid" src="https://www.cs.niu.edu/images/carousel/learn-together.png">
+	
+      </a>
+      <div class="carousel-caption col-sm-12 col-md-4 ml-auto col-lg-3 ml-auto">
+        <p class="caption-heading">Learn Together</p>
+        <p class="caption-content">Collaborate with our research faculty on projects or scientific papers, and work with other students to gain valuable teamwork skills as software developers.</p>
+	
+      </div>
+    </div>
+<!--
+    <div aria-label="3 of 3" aria-roledescription="slide" class="carousel-item ">
+      <a href="#">
+        <img alt="Prof Mike Papka and Bharat Kale, PhD student, part of multi-institutional team awarded the 2022 Gordon Bell Special Prize." class="d-block mx-auto img-fluid" src="https://www.cs.niu.edu/images/carousel/Gordon_Bell.jpeg">
+      </a>
+      <div class="carousel-caption col-sm-12 col-md-4 ml-auto col-lg-3 ml-auto">
+        <p class="caption-heading">2022 Gordon Bell Special Prize</p>
+        <p class="caption-content">Prof Mike Papka and Bharat Kale, PhD student, part of multi-institutional team awarded the 2022 Gordon Bell Special Prize.</p>	
+      </div>
+    </div>
+-->
+
+  </div>
+  <a class="left carousel-control" data-slide="prev" href="#carousel-main" role="button">
+    <span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" data-slide="next" href="#carousel-main" role="button">
+    <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!--
+<div class="alert alert-info">
+<p class="lead">COVID-19 (Coronavirus) Updates</p>
+<p>The health and safety of our students, faculty and staff is our priority. Please visit the 
+<a href="https://www.niu.edu/updates/" rel="noopener" target="_blank">NIU coronavirus (COVID-19) 
+website</a> for current updates and information. See details about available 
+<a href="https://www.niu.edu/updates/campus-operations.shtml" rel="noopener" target="_blank">services 
+and hours</a>, <a href="https://www.niu.edu/updates/faq.shtml" rel="noopener" target="_blank">
+frequently asked questions</a>, and <a href="covid.html">department advising</a>.</p>
+</div>
+-->
+<h1 id="welcome">Welcome</h1>
+<p>The NIU Computer Science Department has been successfully educating computer professionals for almost 40 years. Our programs keep pace with industry demands for well-trained graduates who are ready to assume vital roles in the field of computer science immediately upon entry into the work force. In addition, our MS program has undergone significant changes with the establishment of a track system which will allow more flexibility for students, as well as through the creation of a thesis option in addition to our traditional course-only approach. I encourage you to examine the rest of the department&rsquo;s web site to find out more about our successful curriculum and various departmental activities. <strong>&mdash; Nicholas Karonis, Chair</strong></p>
+
+<div class="row">
+  <div class="col-lg-8">
+    <h1 id="news">News</h1>
+    <ul>
+
+      <li>Congratulations to CS Major and Research Rookie <a href="images/students.jpg" target="_blank">Minhaz Patel</a>, who with his faculty mentor Professor Alhoori, won <a href="images/CURE_AWARD.png" target="_blank">Second Place</a> at NIU's <a href="https://niutoday.info/2023/05/03/oseel-announces-cure-awards/?utm_medium=email&utm_campaign=Spring-2023&utm_source=NIU-Today" target="_blank">Conference on Undergraduate Research and Engagement</a>!</li>
+
+      <li>Faculty member Geoffrey Decker has been selected as a <a href="https://community.ibm.com/community/user/champions/blogs/libby-ingrassia/2022/03/03/2022-ibm-champions" target="_blank">2022 IBM Champion</a>, as well as for 2023! This program recognizes individuals who make extraordinary contributions to the IBM communities through advocacy, offerings, and programs; sharing their knowledge and expertise; and helping nurture and grow the community.</li>
+
+      <li>The <a href="http://ddilab.cs.niu.edu" target="_blank">data, devices, and interaction laboratory (ddiLab)</a>, lead by PRSA Professor Michael Papka and Associate Research Professor Joe Insley, is designated by Intel as an <a href="https://www.cs.niu.edu/oneAPI">oneAPI Center of Excellence</a>.</li>
+
+      <li>Check out the ACM Presentation this Thursday, October 14th in PM 103 with <a href="images/acm_presentation_10-14.jpg" target="_blank">Brian Kasper from Insurance Auto Auctions</a> as they discuss how CS majors fit into the job market today.</li>
+
+      <li>Two CS Alumni are recognized by the <a href="https://www.myniu.com/article.html?aid=1627" target="_blank">NIU Alumni Association</a> with Distinguished Alumnus (Velchamy Sankarlingam M.S. ’90) and Alumni Achievement in the Sciences Award (Matt Price ’09) distinctions.</li>
+
+      <li>Professor Alhoori and Professor Koop are featured in a <a href="https://newsroom.niu.edu/2021/01/19/spell-check-for-research-confronting-the-reproducibility-crisis-with-explainable-ai/?utm_source=PoliteMail&utm_medium=email&utm_content=NIU+Today+-+Jan.+21%2c+2021&utm_campaign=NIU+Today" target="_blank">NIU Newsroom University broadcast</a> highlighting their contributions to an "explainable AI" to help with the reproducibility crisis in research.</li>
+      
+      <li>NIU Master's student Ryan Lewis <a href="https://www.youtube.com/watch?v=3C27S8j6xgI&amp;feature=emb_title">presented</a> a <a href="https://linklings-public.s3.amazonaws.com/isc_hpc/2020/posters/post119.pdf">poster</a> on &ldquo;Log-Based Fingerprinting of HPC Applications&rdquo; at the annual ISC High Performance Conference.</li>
+      
+<!--      <li><a href="about/news"><strong>More News</strong></a></li>-->
+    </ul>
+  </div>
+  <div class="col-lg-4">
+    <h1 id="events">Events</h1>
+    <ul>
+     <li><strong>September 28th, 7pm at Engineering Building 221</strong>: <a href="https://www.cs.niu.edu/images/carousel/SWE_Flyer.jpg" target="_blank">Society of Women Engineers</a> are having a workshop on soldering!</li>
+     <li><strong>October 2nd, 5pm-7pm at the Barsema Alumni Center</strong>: <a href="https://www.cs.niu.edu/images/CSAC_Event_flyer_23.pdf" target="_blank">CSAC Panel Discussion</a> with previously graduated CS/OMIS majors.  Learn from their experiences and insights!</li>
+    </ul>
+  </div>
+</div>
+
+<!--EXPERIMENTAL STUFF-->
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row bythenumbers">
+            <div class="container d-flex flex-wrap">
+                <h2 class="animationActive">BY THE NUMBERS</h2>
+                                                           
+                     <div class="col-12 col-md-4">
+                       <div class="rowCount"><span class="count" style="color: #FFF;">750</span><span style="color: #FFF;">+</span></div>
+                       <div><p class="text-center">Undergraduate Majors</p></div>
+                         <p class="text-center"><a class="homepage btn btn-white" href="https://www.cs.niu.edu/undergraduate/" target="">Overview</a></p>
+                     </div>
+                                                                                                            
+                                                            
+                     <div class="col-12 col-md-4">
+                       <div class="rowCount"><span class="count" style="color: #FFF;">200</span><span style="color: #FFF;">+</span></div>
+                       <div><p class="text-center">Graduate Students</p></div>
+                         <p class="text-center"><a class="homepage btn btn-white" href="https://www.cs.niu.edu/graduate/" target="">Overview</a></p>
+                     </div>
+                                                                
+                                                            
+                     <div class="col-12 col-md-4">
+                       <div class="rowCount" id="endCountRow"><span class="count" style="color: #FFF;">3</span></div>
+                       <div><p class="text-center">Degree Programs</p></div>
+                         <!--<p class="text-center"><a class="homepage btn btn-white" href="" target="">EXPLORE ORGANIZATIONS</a></p>-->
+                     </div>
+
+
+                     <div class="col-12 col-md-4">
+                       <div class="rowCount"><span style="color: #FFF;">$</span><span class="count" style="color: #FFF;">19</span><span style="color: #FFF;">M+</span></div>
+                       <div><p class="text-center">External Funding</p></div>
+                     </div>
+                                                                                                            
+                                                            
+                     <div class="col-12 col-md-4">
+                       <div class="rowCount"><span class="count" style="color: #FFF;">11</span></div>
+                       <div><p class="text-center">Federal and private sponsors</p></div>
+                         <p class="text-center"><a class="homepage btn btn-white" href="https://www.cs.niu.edu/sponsors.html" target="">See sponsors</a></p>
+                     </div>
+                                                                
+                                                            
+                     <div class="col-12 col-md-4">
+                       <div class="rowCount" id="endCountRow"><span class="count" style="color: #FFF;">11</span></div>
+                       <div><p class="text-center">Patents</p></div>
+                     </div>
+            </div>
+          </div>
+<style><!--
+.bythenumbers p {
+    color: #FFF;
+}
+--></style>
+        </div>
+      </div>
+
+
+        </main><footer class="mt-5">
+<div class="container-fluid">
+<div class="row no-gutters d-lg-flex d-none">
+<div class="col-sm-5">
+<ul class="nav justify-content-center">
+<li class="nav-item"><small> <a class="nav-link" href="https://www.niu.edu/apply/index.shtml">Apply to NIU</a> </small></li>
+<li class="nav-item"><small> <a class="nav-link" href="https://www.niu.edu/visit/index.shtml">Visit Campus</a> </small></li>
+<li class="nav-item"><small> <a class="nav-link" href="https://www.niu.edu/visit/maps/">Directions/Maps</a> </small></li>
+<li class="nav-item"><small> <a class="nav-link" href="https://www.niu.edu/contactinfo.shtml">Contact Us</a> </small></li>
+</ul>
+</div>
+<div class="col-sm-2">
+<div class="niu-home justify-content-center">
+<p class="text-center"><a href="https://www.niu.edu/" target="new"> <img alt="NIU Logo" src="https://niu.edu/masterto/themes/Theme_1_0/css/theme_images/niu_logo.png" /> </a></p>
+</div>
+</div>
+<div class="col-sm-5">
+<ul class="nav justify-content-center">
+<li class="nav-item"><small> <a class="nav-link" href="https://www.niu.edu/publicsafety/emergency/index.shtml">Emergency Info </a> </small></li>
+<li class="nav-item"><small> <a class="nav-link" href="https://www.niu.edu/accessibility/">Accessibility</a> </small></li>
+<li class="nav-item"><small> <a class="nav-link" href="https://www.niu.edu/employment/">Jobs @ NIU</a> </small></li>
+<li class="nav-item"><small> <a class="nav-link" href="https://niuhuskies.com/">NIUHuskies.com</a> </small></li>
+</ul>
+</div>
+</div>
+<div class="row copyright-address d-lg-flex d-none">
+<div class="col-6">
+<p><small>&#169;
+<script>
+document.write(new Date().getFullYear())
+</script>
+Board of Trustees of Northern Illinois University. All rights reserved. <a href="https://www.niu.edu/policies/policy-documents/website-privacy-policy.shtml" rel="noopener noreferrer" target="_blank">Privacy Notice</a> </small></p>
+</div>
+<div class="col-6">
+<p class="text-right"><small>1425 W. Lincoln Hwy., DeKalb, IL 60115</small></p>
+</div>
+</div>
+
+<div class="row d-lg-none">
+<div class="col">
+<div class="niu-home">
+<p class="text-center"><a href="https://www.niu.edu/" target="new"> <img alt="NIU Logo" src="https://niu.edu/masterto/themes/Theme_1_0/css/theme_images/niu_logo.png" /> </a></p>
+</div>
+</div>
+<div class="col-xs-12"><nav class="nav nav-mobile">
+<p class="text-center"><small> <a class="nav-item-link" href="https://www.niu.edu/apply/index.shtml">Apply to NIU</a> <a href="https://www.niu.edu/visit/index.shtml">Visit Campus</a> <a href="https://www.niu.edu/visit/maps/">Directions/Maps</a> <a href="https://www.niu.edu/contactinfo.shtml">Contact Us</a> <a href="https://www.niu.edu/publicsafety/emergency/index.shtml">Emergency Info</a> <a href="https://www.niu.edu/accessibility/">Accessibility</a> <a href="https://www.niu.edu/employment/">Jobs @ NIU</a> <a href="https://niuhuskies.com/">NIUHuskies.com</a> </small></p>
+</nav></div>
+</div>
+<div class="row copyright-address text-center d-lg-none">
+<div class="col-12">
+<p><small> &#169;
+<script>
+document.write(new Date().getFullYear())
+</script>
+Board of Trustees of Northern Illinois University. All rights reserved. <a href="https://www.niu.edu/policies/policy-documents/website-privacy-policy.shtml" rel="noopener noreferrer" target="_blank">Privacy Notice</a> </small></p>
+</div>
+<div class="col-12 text-center">
+<p><small>1425 W. Lincoln Hwy., DeKalb, IL 60115</small></p>
+</div>
+</div>
+</div>
+</footer>
+<a class="btn btn-primary btn-lg back-to-top" data-placement="left" data-toggle="tooltip" href="#" id="back-to-top" role="button" title="Back to top">
+<i class="far fa-angle-up fa-2x"></i>
+<span class="sr-only">Back to top</span>
+</a>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha256-ZvOgfh+ptkpoa2Y4HkRY28ir89u/+VRyDE7sB7hEEcI=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha256-63ld7aiYP6UxBifJWEzz87ldJyVnETUABZAYs5Qcsmc=" crossorigin="anonymous"></script>
+
+
+<script>
+    /******************************
+	 ACTIVE TOOLTIP 
+	******************************/
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+    
+    /******************************
+	 ADD ANIMATION TO THE TEXT 
+	******************************/
+	var count = 0;
+	var number = 10;
+	
+	var interval = setInterval(function(){
+       count++;
+	   if (count === number) { 
+	   		clearInterval(interval);
+			$('h1 ,h2').addClass('animationActive');		
+		}
+	}, 50);
+	
+	/*********************
+	 SET ROW'S HEIGHT
+	*********************/
+	$.each($('.row'), function() { 
+	   var h = $(this).attr("data-height");
+	   $(this).css("height",h);
+	});
+
+	/**************
+	 IN-NAVIGATION
+	**************/
+	$(".nav-btn").click(navigateTo);
+    $(".nav-btn").keydown(selectOnEnter);
+
+    function selectOnEnter(event) {
+        console.log(this);
+
+        if(event.keyCode != 13) return;
+
+        navigateTo.apply(this);
+    }
+
+    function navigateTo(){		
+        console.log(this);
+
+		$(this).addClass("active");
+		$(this).siblings().removeClass("active");
+		
+		var i = $(this).index();
+		$('#nav-indicator').css('left', i*100 + 'px');			
+		
+		var name = $(this).attr("data-row-id");
+        console.log(name);
+		var id = "#" + name;
+		var top = $(id).first().offset().top -1;			
+		$('html, body').animate({scrollTop: top+'px'}, 300);
+	}
+    </script>
+    
+
+
+                                    
+	<!-- Number Counter Scripting -->
+	
+    
+<script>
+	$(document).ready(function() {
+
+	$(window).scroll(function() {
+	    var hT = $('#endCountRow').offset().top,
+	    hH = $('#endCountRow').outerHeight(),
+	    wH = $(window).height(),
+	    wS = $(this).scrollTop();
+	    //console.log((hT - wH), wS);
+	    if (wS > (hT + hH - wH)) {
+	        $('.count').each(function() {
+	            var currentText = $(this).text();
+    	        $(this).prop('Counter', 0).animate({ Counter: $(this).text() }, 
+        	        {
+        	        duration: 1800,
+        	        easing: 'swing',
+        	        step: function(now) {
+        	            $(this).text(Math.ceil(now));
+        	        },
+        	        complete: function() {
+        	            $(this).text(currentText);
+                    }
+	            });
+    	    }); 
+    	    {
+    	        $('.count').removeClass('count').addClass('counted');
+    	    };
+	    }
+	});
+
+	});
+
+	</script>
+
+
+                                    
+
+<script>
+    $(function() {
+        'use strict'
+        $('[data-toggle="offcanvas"]').on('click', function() {
+            $('.offcanvas-collapse').toggleClass('open');
+            $('.slide_elements').toggleClass('open');
+            $('.mainnav-wrapper').toggleClass('slide-open');
+            $('.home-mainnav-wrapper').toggleClass('slide-open');
+        });
+    });
+</script>
+
+</body>
+</html>
